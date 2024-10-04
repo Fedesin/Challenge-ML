@@ -7,6 +7,13 @@ Este proyecto tiene como objetivo analizar el dataset **CUAD_v1** proporcionado 
 
 ## Instrucciones para la Prueba del Sistema
 
+## Enlaces del Proyecto
+Puedes acceder al notebook y explorarlo a través de los siguientes enlaces:
+
+-**Ver en GitHub**:
+[notebook.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb)
+-**Abrir en Google Colab**:[Abrir en Google Colab](https://colab.research.google.com/github/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb)
+
 ### Requisitos Previos
 
 1. **Entorno de desarrollo:**
