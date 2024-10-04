@@ -1,7 +1,7 @@
 # Challenge-ML
 ## Proyecto: Análisis de Dataset de Contratos
 
-## Descripción
+### Descripción
 
 Este proyecto tiene como objetivo analizar el dataset **CUAD_v1** proporcionado para el challenge. El dataset contiene información de contratos legales en diferentes formatos y está organizado en varias subcarpetas con documentos en PDF, TXT y datos estructurados en CSV y JSON. El propósito es aplicar un proceso ETL para extraer, transformar y analizar la información, generando reportes y conclusiones útiles a partir de los datos.
 
