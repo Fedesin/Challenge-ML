@@ -62,9 +62,3 @@ Puedes acceder al notebook y explorarlo a través de los siguientes enlaces:
 3. **Dataset:**
    - Descargue el dataset "Atticus Open Contract Dataset (AOK-Beta)" desde [Kaggle](https://www.kaggle.com/datasets/konradb/atticus-open-contract-dataset-aok-beta) y colóquelo en la carpeta `data/` del proyecto.
 
-### Instalación de Dependencias
-
-Ejecute el siguiente comando para instalar las dependencias del proyecto:
-```bash
-pip install -r requirements.txt
-
