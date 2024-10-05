@@ -56,8 +56,6 @@ Puedes acceder al notebook y explorarlo a través de los siguientes enlaces:
    - pandas
    - numpy
    - matplotlib
-   - seaborn
-   - PyMuPDF (si es necesario extraer texto de PDFs)
 
 3. **Dataset:**
    - Descargue el dataset "Atticus Open Contract Dataset (AOK-Beta)" desde [Kaggle](https://www.kaggle.com/datasets/konradb/atticus-open-contract-dataset-aok-beta) y colóquelo en la carpeta `data/` del proyecto.
