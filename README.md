@@ -107,3 +107,8 @@ Este proyecto representó un desafío interesante y enriquecedor, ya que abordé
 
 ### ℹ️ Aclaración final
 Para la realización de este proyecto, se utilizaron herramientas de asistencia como ChatGPT para resolver dudas, mejorar la estructura del código y optimizar el análisis de datos. Todas las implementaciones fueron realizadas y verificadas manualmente para asegurar la comprensión y calidad del trabajo.
+
+Aunque este proyecto podría haberse desarrollado en un entorno local utilizando Python, opté por utilizar Google Colab. La elección de Colab se debió a que, al investigar cómo descargar y procesar el dataset desde Kaggle, encontré que Colab es una herramienta muy utilizada para tareas de análisis de datos y machine learning. 
+
+Además, al usar Colab, no tuve que preocuparme por la configuración de dependencias y librerías en mi entorno local, lo que me permitió concentrarme en el análisis y procesamiento del dataset de manera más eficiente.
+
