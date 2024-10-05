@@ -43,8 +43,8 @@ Y con esto ya tendriamos Descargado dentro de nuestro google colab el dataset.
 Puedes acceder al notebook y explorarlo a través de los siguientes enlaces:
 
 -**Ver en GitHub**:
-[notebook.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb)
--**Abrir en Google Colab**:[Abrir en Google Colab](https://colab.research.google.com/github/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb)
+[notebook.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Colab_challenge_meli.ipynb))
+-**Abrir en Google Colab**:[Abrir en Google Colab](https://colab.research.google.com/github/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Colab_challenge_meli.ipynb))
 
 ### Requisitos Previos
 
