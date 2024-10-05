@@ -1,23 +1,23 @@
-# Challenge-ML
-## Proyecto: Análisis de Dataset de Contratos
+# 💻 Challenge-ML
+## 📊 Proyecto: Análisis de Dataset de Contratos
 
-### Descripción
+### 📝 Descripción
 
 Este proyecto tiene como objetivo analizar el dataset **CUAD_v1** proporcionado para el challenge. El dataset contiene información de contratos legales en diferentes formatos y está organizado en varias subcarpetas con documentos en PDF, TXT y datos estructurados en CSV y JSON. El propósito es aplicar un proceso ETL para extraer, transformar y analizar la información, generando reportes y conclusiones útiles a partir de los datos.
 
-### Objetivo del Proyecto
+### 🎯 Objetivo del Proyecto
 
 - Realizar un análisis exploratorio del dataset para identificar patrones y obtener insights útiles.
 - Responder preguntas clave relacionadas con los contratos de los proveedores, tales como:
-  - ¿Cuál es el proveedor con más contratos asociados?
-  - ¿Cuál es el plazo de renovación de contrato más breve? ¿Y el más extenso?
-  - ¿Cuál es la fecha de inicio de contrato más antigua?
-  - ¿Cuál es el país asociado a la ley aplicable? ¿A qué continente pertenece?
+  - 📌 ¿Cuál es el proveedor con más contratos asociados?
+  - 📌 ¿Cuál es el plazo de renovación de contrato más breve? ¿Y el más extenso?
+  - 📌 ¿Cuál es la fecha de inicio de contrato más antigua?
+  - 📌 ¿Cuál es el país asociado a la ley aplicable? ¿A qué continente pertenece?
 
 Implementar el proceso ETL (Extracción, Transformación y Carga) para preparar los datos para el análisis.
 Generar gráficos y reportes que ayuden a visualizar las respuestas a las preguntas clave.
 
-### Proceso ETL Implementado
+### 🔄 Proceso ETL Implementado
 
 El proceso ETL (Extracción, Transformación y Carga) se ha implementado de la siguiente manera:
 
@@ -26,7 +26,7 @@ El proceso ETL (Extracción, Transformación y Carga) se ha implementado de la s
 3. **Carga:** Almacenamiento de los datos transformados en un CSV limpio (`dataset_limpio.csv`), listo para su análisis.
 
 
-## Proceso para descargar el dataset y aplicarlo en el colab
+## 📥 Proceso para descargar el dataset y aplicarlo en el colab
 1. Obtener el API Token de Kaggle desde el perfil de Kaggle, lo cual generará el archivo `kaggle.json`.
 2. Colocar el archivo `kaggle.json` en una carpeta de Google Drive.
 3. Crear un notebook en Google Colab e iniciar con los siguientes pasos:
@@ -58,7 +58,7 @@ Lo descomprimimos
 ```
 Y con esto ya tendriamos Descargado dentro de nuestro google colab el dataset.
 
-## Nota: Cómo Replicar el Análisis
+## 📌 Nota: Cómo Replicar el Análisis
 
 Si deseas replicar los pasos y resultados obtenidos en este proyecto, simplemente sigue estos pasos:
 
@@ -69,24 +69,24 @@ Si deseas replicar los pasos y resultados obtenidos en este proyecto, simplement
 
 De esta manera, podrás obtener los mismos resultados y visualizaciones sin necesidad de realizar ninguna configuración adicional, más allá de los pasos iniciales de configuración del entorno.
 
-### Logging Implementado
+### 🛠️ Logging Implementado
 
 El proceso ETL incluye la funcionalidad de logging para registrar los eventos importantes del proceso, como inicio y fin del proceso, advertencias y errores. El archivo de logs se genera en `etl_process.log`.
 
-### Análisis de Datos
+### 📊 Análisis de Datos
 
 - Se han generado gráficos y visualizaciones para responder a las preguntas del challenge.
 - Se han incluido insights adicionales basados en el análisis exploratorio de los datos.
 
 
-## Enlaces del Proyecto
+## 🔗 Enlaces del Proyecto
 Puedes acceder al notebook y explorarlo a través de los siguientes enlaces:
 
 -**Ver en GitHub**:
 [notebook.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Colab_challenge_meli.ipynb))
 -**Abrir en Google Colab**:[Abrir en Google Colab](https://colab.research.google.com/github/Fedesin/Challenge-ML/blob/main/Untitled0.ipynb](https://github.com/Fedesin/Challenge-ML/blob/main/Colab_challenge_meli.ipynb))
 
-### Requisitos Previos
+### ⚙️ Requisitos Previos
 
 1. **Entorno de desarrollo:**
    - Google Colab o entorno local con Python 3.7+
@@ -102,8 +102,8 @@ Puedes acceder al notebook y explorarlo a través de los siguientes enlaces:
    - Descargue el dataset "Atticus Open Contract Dataset (AOK-Beta)" desde [Kaggle](https://www.kaggle.com/datasets/konradb/atticus-open-contract-dataset-aok-beta) y colóquelo en la carpeta `data/` del proyecto.
 
 
-### Conclusiones
+### 📌 Conclusiones
 Este proyecto representó un desafío interesante y enriquecedor, ya que abordé una rama en la que no había trabajado anteriormente. A lo largo del proceso, pude aprender muchísimo sobre técnicas de ETL y análisis de datos aplicados a contratos legales. A pesar de ser un terreno nuevo, logré alcanzar resultados satisfactorios y obtener insights relevantes a partir del dataset. Sin dudas, fue una experiencia valiosa que me permitió expandir mis conocimientos y habilidades en análisis de datos.
 
-### Nota
+### ℹ️ Aclaración final
 Para la realización de este proyecto, se utilizaron herramientas de asistencia como ChatGPT para resolver dudas, mejorar la estructura del código y optimizar el análisis de datos. Todas las implementaciones fueron realizadas y verificadas manualmente para asegurar la comprensión y calidad del trabajo.
