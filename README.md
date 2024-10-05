@@ -26,7 +26,7 @@ El proceso ETL (Extracción, Transformación y Carga) se ha implementado de la s
 3. **Carga:** Almacenamiento de los datos transformados en un CSV limpio (`dataset_limpio.csv`), listo para su análisis.
 
 
-## Documentación paso a paso
+## Proceso para descargar el dataset y aplicarlo en el colab
 1. Obtener el API Token de Kaggle desde el perfil de Kaggle, lo cual generará el archivo `kaggle.json`.
 2. Colocar el archivo `kaggle.json` en una carpeta de Google Drive.
 3. Crear un notebook en Google Colab e iniciar con los siguientes pasos:
@@ -57,6 +57,17 @@ Lo descomprimimos
 ! unzip atticus-open-contract-dataset-aok-beta.zip
 ```
 Y con esto ya tendriamos Descargado dentro de nuestro google colab el dataset.
+
+## Nota: Cómo Replicar el Análisis
+
+Si deseas replicar los pasos y resultados obtenidos en este proyecto, simplemente sigue estos pasos:
+
+1. **Abre el notebook en Google Colab** usando el enlace proporcionado en la sección de Enlaces del Proyecto.
+2. **Ejecuta cada bloque de código en orden**. Los bloques ya están organizados de manera que guían el flujo del proceso ETL y análisis de datos. Cada bloque incluye comentarios para facilitar su comprensión y seguimiento.
+3. Asegúrate de tener las librerías necesarias instaladas y la conexión a Kaggle configurada según las instrucciones indicadas.
+4. **Observa los resultados y gráficos generados** después de ejecutar cada bloque de código, los cuales reflejarán el análisis de los datos según el proceso ETL implementado.
+
+De esta manera, podrás obtener los mismos resultados y visualizaciones sin necesidad de realizar ninguna configuración adicional, más allá de los pasos iniciales de configuración del entorno.
 
 ### Logging Implementado
 
