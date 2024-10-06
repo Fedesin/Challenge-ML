@@ -69,6 +69,17 @@ Si deseas replicar los pasos y resultados obtenidos en este proyecto, simplement
 
 De esta manera, podrás obtener los mismos resultados y visualizaciones sin necesidad de realizar ninguna configuración adicional, más allá de los pasos iniciales de configuración del entorno.
 
+### 🤖 Implementación del Modelo de Lenguaje para Análisis de Proveedores
+
+En este proyecto se utilizó un modelo de lenguaje para ayudar en la identificación y conteo de proveedores en el dataset original. El modelo de lenguaje empleado fue **spaCy**, una biblioteca de procesamiento de lenguaje natural (NLP) que nos permitió extraer entidades de tipo organización (ORG) a partir de los textos en la columna `Parties-Answer`.
+
+El objetivo fue reconocer correctamente cada proveedor presente en las distintas filas, separarlos adecuadamente y contar cuántas veces cada uno aparecía a lo largo del dataset. De esta manera, se identificaron los proveedores con mayor cantidad de contratos asociados, proporcionando una visión detallada sobre las relaciones contractuales en el dataset.
+
+El modelo de lenguaje facilitó el proceso de extracción al identificar nombres de empresas y organizaciones, y se integró como una capa adicional de validación para asegurar que los proveedores fueran correctamente reconocidos y diferenciados, incluso en textos complejos o estructurados de manera irregular.
+
+
+
+
 ### 🛠️ Logging Implementado
 
 El proceso ETL incluye la funcionalidad de logging para registrar los eventos importantes del proceso, como inicio y fin del proceso, advertencias y errores. El archivo de logs se genera en `etl_process.log`.
